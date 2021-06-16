@@ -1,0 +1,7 @@
+<ul class="fh5co-social" *ngIf="socialLinks">
+  <li *ngFor="let socialLink of socialLinks">
+    <a [href]="socialLink.link" target="_blank"
+      ><i [class]="socialLink.icon"></i
+    ></a>
+  </li>
+</ul>
