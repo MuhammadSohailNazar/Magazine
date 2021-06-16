@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "magazine"
+    }
+  },
+  "defaultProject": "magazine",
+  "cli": {
+    "analytics": false
+  }
 }
