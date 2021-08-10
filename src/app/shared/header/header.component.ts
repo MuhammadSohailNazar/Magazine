@@ -48,4 +48,5 @@ export class HeaderComponent implements OnInit {
           _this.displayValue = 'none';
         }, 1000);
   }
+  
 }
